@@ -15,5 +15,5 @@
 homepage: 'https://www.callpage.io/'
 documentation: 'https://github.com/mateuszjansowa/callpage-gtm-template/blob/main/README.md'
 versions:
-  - sha: 005d8fe313956dbf5659f63182ca76b22068e928
+  - sha: e786d147f0f87a6323442797ec7d384202ff5811
     changeNotes: Initial release
