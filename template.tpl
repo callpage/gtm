@@ -521,7 +521,7 @@ const __cp = {
 const setConfig = setInWindow('__cp',__cp);
 
 if(setConfig){
-	injectScript('//api.callpage.io/themes/widget/build/js/callpage.js', onLoadedScript, onScriptError, 'callpage');
+	injectScript('//cdn-widget.callpage.io/build/js/callpage.js', onLoadedScript, onScriptError, 'callpage');
 }
 
 
