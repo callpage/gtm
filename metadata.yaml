@@ -13,7 +13,9 @@
 # limitations under the License.
 
 homepage: 'https://www.callpage.io/'
-documentation: 'https://github.com/mateuszjansowa/callpage-gtm-template/blob/main/README.md'
+documentation: 'https://github.com/callpage/gtm/blob/main/README.md'
 versions:
+  - sha: 2d5eceea5404f26328461227489638984716345d
+    changeNotes: Updated widget source URL
   - sha: e786d147f0f87a6323442797ec7d384202ff5811
     changeNotes: Initial release
