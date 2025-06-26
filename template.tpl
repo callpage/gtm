@@ -496,6 +496,48 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "event.onMeetingsScheduled",
         "help": "Fires when visitor ordered a scheduled meetings"
       },
+      
+      {
+        "type": "GROUP",
+        "name": "params_event.onMeetingsScheduled",
+        "displayName": "Params that will be send to Data Layer",
+        "groupStyle": "NO_ZIPPY",
+        "subParams": [
+          {
+            "type": "TEXT",
+            "name": "event_event.onMeetingsScheduled",
+            "displayName": "Event",
+            "simpleValueType": true,
+            "defaultValue": "onCallScheduled"
+          },
+          {
+            "type": "SIMPLE_TABLE",
+            "name": "data_event.onMeetingsScheduled",
+            "displayName": "Additional Data",
+            "simpleTableColumns": [
+              {
+                "defaultValue": "",
+                "displayName": "Key",
+                "name": "key",
+                "type": "TEXT"
+              },
+              {
+                "defaultValue": "",
+                "displayName": "Value",
+                "name": "value",
+                "type": "TEXT"
+              }
+            ]
+          }
+        ],
+        "enablingConditions": [
+          {
+            "paramName": "callbacks_event.onMeetingsScheduled",
+            "paramValue": true,
+            "type": "EQUALS"
+          }
+        ]
+      },
     ]
   }
 ]
