@@ -487,7 +487,15 @@ ___TEMPLATE_PARAMETERS___
             "type": "EQUALS"
           }
         ]
-      }
+      },
+      {
+        "type": "CHECKBOX",
+        "name": "callbacks_event.onMeetingsScheduled",
+        "checkboxText": "Meetings Scheduled",
+        "simpleValueType": true,
+        "displayName": "event.onMeetingsScheduled",
+        "help": "Fires when visitor ordered a scheduled meetings"
+      },
     ]
   }
 ]
