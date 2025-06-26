@@ -15,8 +15,6 @@
 homepage: 'https://www.callpage.io/'
 documentation: 'https://github.com/mateuszjansowa/callpage-gtm-template/blob/main/README.md'
 versions:
-  - sha: 89f2e227ac7a3bc2d57db2a320eda0afeb87d52a
-    changeNotes: meetings event
   - sha: f82f59114fbe30c50c0b27dd80cb66c1bc624d48
     changeNotes: updated version
   - sha: e786d147f0f87a6323442797ec7d384202ff5811
