@@ -507,7 +507,7 @@ ___TEMPLATE_PARAMETERS___
             "name": "event_event.onMeetingsScheduled",
             "displayName": "Event",
             "simpleValueType": true,
-            "defaultValue": "onCallScheduled"
+            "defaultValue": "onMeetingsScheduled"
           },
           {
             "type": "SIMPLE_TABLE",
