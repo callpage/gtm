@@ -1,4 +1,4 @@
-﻿﻿___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -535,6 +535,47 @@ ___TEMPLATE_PARAMETERS___
             "paramValue": true,
             "type": "EQUALS"
           }
+        ]
+      },
+      {
+        "type": "GROUP",
+        "name": "params_event.onMessageCreated",
+        "displayName": "Params that will be send to Data Layer",
+        "groupStyle": "NO_ZIPPY",
+        "subParams": [
+            {
+                "type": "TEXT",
+                "name": "event_event.onMessageCreated",
+                "displayName": "Event",
+                "simpleValueType": true,
+                "defaultValue": "onMessageCreated"
+            },
+            {
+                "type": "SIMPLE_TABLE",
+                "name": "data_event.onMessageCreated",
+                "displayName": "Additional Data",
+                "simpleTableColumns": [
+                    {
+                        "defaultValue": "",
+                        "displayName": "Key",
+                        "name": "key",
+                        "type": "TEXT"
+                    },
+                    {
+                        "defaultValue": "",
+                        "displayName": "Value",
+                        "name": "value",
+                        "type": "TEXT"
+                    }
+                ]
+            }
+        ],
+        "enablingConditions": [
+            {
+            "paramName": "callbacks_event.onMessageCreated",
+            "paramValue": true,
+            "type": "EQUALS"
+            }
         ]
       },
     ]

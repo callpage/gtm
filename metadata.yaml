@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: 'https://www.callpage.io/'
-documentation: 'https://github.com/mateuszjansowa/callpage-gtm-template/blob/main/README.md'
+documentation: 'https://github.com/callpage/gtm/blob/main/README.md'
 versions:
   - sha: 6b9fc574e6fe5c8f98e7d8db68baf27926a7eaf7
     changeNotes: meetings event - fix default value
