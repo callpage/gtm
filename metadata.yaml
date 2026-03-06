@@ -15,6 +15,8 @@
 homepage: 'https://www.callpage.io/'
 documentation: 'https://github.com/callpage/gtm/blob/main/README.md'
 versions:
+  - sha: 83b1568e114462e9a1bc4080e1efbb806d0cd45d
+    changeNotes: Fixed message events
   - sha: 164280ef48925580300fb3d7efdd10d1dd2e6ef7
     changeNotes: Added support for message events
   - sha: 6b9fc574e6fe5c8f98e7d8db68baf27926a7eaf7
