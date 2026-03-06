@@ -538,6 +538,14 @@ ___TEMPLATE_PARAMETERS___
         ]
       },
       {
+        "type": "CHECKBOX",
+        "name": "callbacks_event.onMessageCreated",
+        "checkboxText": "Message created",
+        "simpleValueType": true,
+        "displayName": "event.onMessageCreated",
+        "help": "Fires when visitor sends a message"
+      },
+      {
         "type": "GROUP",
         "name": "params_event.onMessageCreated",
         "displayName": "Params that will be send to Data Layer",
